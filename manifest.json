@@ -1,0 +1,25 @@
+{
+  "compatibleVersion": "3",
+  "bundleVersion": 1,
+  "identifier": "com.example.switchstyles",
+  "version": "1.0.0",
+  "description": "Switch styles between two selected layers",
+  "homepage": "",
+  "name": "Switch Styles",
+  "author": "User",
+  "commands": [
+    {
+      "identifier": "switch-styles",
+      "name": "Switch Styles",
+      "shortcut": "ctrl cmd s",
+      "script": "switch-styles.js"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "title": "Switch Styles",
+    "items": [
+      "switch-styles"
+    ]
+  }
+}
